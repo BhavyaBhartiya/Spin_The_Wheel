@@ -2,6 +2,8 @@
 
 ![Hero Image](./attachments/Header.png)
 
+This is a spin-the-wheel game that uses the LED chaser effect. It starts when the user clicks the start button, and it gradually slows down when the user clicks the stop button.
+ 
 ## Schematic
 
 ![Schematic Image](./attachments/schematic.png)
