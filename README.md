@@ -1,16 +1,14 @@
 # Spin The Wheel
 
-![Hero Image](./attachments/Header.png)
+![Hero Image](./attachments/PCB_Render.png)
 
-This is a spin-the-wheel game that uses the LED chaser effect. It starts when the user clicks the start button, and it gradually slows down when the user clicks the stop button.
- 
 ## Schematic
 
-![Schematic Image](./attachments/schematic.png)
+![Schematic Image](./attachments/Schematic.png)
 
 ## PCB
 
-![PCB Image](./attachments/pcb.png)
+![PCB Image](./attachments/PCB.png)
 
 ## BOM
 
@@ -18,28 +16,27 @@ This is a spin-the-wheel game that uses the LED chaser effect. It starts when th
 | ---------- | ------- |
 | BZ1        | Buzzer  |
 | C1         | 10nf    |
-| "C2, C5"   | 100uf   |
-| C3         | 33uf    |
-| C4         | 68uf    |
-| "D1, D10,  |         |
-| D2, D3, D4 |         |
-| , D5, D6,  |         |
-| D7, D8, D9"| LED     |
-| "D11, D12, |         |
-| D13, D14,  |         |
-| D15, D16,  |         |
-| D17, D18,  |         |
-| D19, D20,  |         |
-| D21, D22"  | D       |
+| C2         | 100uf   |
+| C3         | 100uf   |
+| C6         | 470uf   |
+| D1         | LED     |
+| D2         | LED     |
+| D3         | LED     |
+| D4         | LED     |
+| D5         | LED     |
+| D6         | LED     |
+| D7         | LED     |
+| D8         | LED     |
+| D9         | LED     |
+| D10        | LED     |
+| D11        | D       |
 | J1         | USB_A   |
-| "Q1, Q2,   |         |
-| Q3"        | NPN     |
-| "Q5, Q6"   | PNP     |
+| Q1         | Q_PNP   |
 | R1         | 9.5K    |
-| "R2, R4"   | 10K     |
-| R3         | 1K,     |
-| SW1        | START   |
-| SW2        | STOP    |
+| R2         | 10K     |
+| R3         | 1K      |
+| R4         | 1K      |
+| SW1        | Push    |
+|            | Button  |
 | U1         | NE555   |
 | U2         | CD4017  |
-
