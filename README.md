@@ -1,5 +1,7 @@
 # Spin The Wheel
 
+This project utilises a NE555 IC and a CD4017 IC to create an LED Wheel. When the user presses the start/stop button, the LEDs light up randomly. Pressing the start/stop button again reduces the speed at which the LEDs change, eventually leading to a stop.
+
 ![Hero Image](./attachments/PCB_Render.png)
 
 ## Schematic
